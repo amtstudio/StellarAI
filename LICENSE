@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2026 AMT Studio
+Copyright (c) 2026 StellarAI Team
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -19,3 +19,31 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+---
+
+关于商业使用的说明
+====================
+
+本项目 (StellarAI 模型代码) 在 MIT 许可证下发布，完全可商用。
+
+您可以自由地：
+  ✅ 用于商业产品
+  ✅ 修改源码
+  ✅ 分发再发行
+  ✅ 申请专利
+  ✅ 私有化部署
+
+您需要：
+  📝 在产品中保留本 LICENSE 文件的版权声明
+  📝 如修改了源码，建议在变更记录中注明
+
+模型权重的额外说明：
+- 本仓库提供的是**随机初始化的权重**和**训练代码**，不包含经过数据训练的预训练权重。
+- 如果您使用受版权或许可证限制的数据集训练此模型，请确保您有权使用这些数据，
+  并且训练出的权重文件的许可证符合原始数据集的要求。
+- 对于**您自行训练出的权重**，您完全拥有其所有权，可按任何许可证发布（包括商用）。
+
+第三方数据的合规性：
+- 训练和使用模型时请遵守当地法律法规（如《生成式人工智能服务管理暂行办法》等）。
+- 请勿使用本模型从事违法违规活动。

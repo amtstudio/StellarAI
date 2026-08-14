@@ -1,0 +1,25 @@
+# 模型权重 (太大, GitHub 限制 100MB)
+outputs/
+*.pt
+*.bin
+*.safetensors
+
+# HF 缓存
+data/.hf_cache/
+
+# 中间产物 / 一次性脚本
+data/train_corpus_hf.txt
+data/train_combined.txt
+data/append_part1.py
+data/append_part2.py
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# 系统
+.DS_Store
+Thumbs.db

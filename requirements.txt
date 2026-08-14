@@ -1,0 +1,37 @@
+# =====================================
+#  StellarAI 0.05B 依赖清单
+#  最低要求：Python 3.10+
+# =====================================
+
+# ---------- 核心依赖 (必需) ----------
+numpy>=1.24.0,<2.2.0
+
+# ---------- 图像预处理 (推荐) ----------
+Pillow>=9.0.0
+# 若不安装Pillow，将降级为简单最近邻缩放(质量较低)
+
+# ---------- 训练加速 (可选，安装后性能提升10-100x) ----------
+# 请根据你的CUDA版本选择:
+#   CUDA 11.8: pip install torch==2.3.1 --index-url https://download.pytorch.org/whl/cu118
+#   CUDA 12.1: pip install torch==2.3.1 --index-url https://download.pytorch.org/whl/cu121
+#   CPU only : pip install torch==2.3.1 --index-url https://download.pytorch.org/whl/cpu
+# torch>=2.1.0
+
+# ---------- 权重格式 (可选) ----------
+# safetensors>=0.4.0   # 更安全高效的权重格式
+
+# ---------- 训练数据处理 (可选) ----------
+# datasets>=2.14.0     # HuggingFace datasets 库，方便加载公开数据集
+# sentencepiece>=0.1.99  # 更专业的分词器，可替代内置 SimpleTokenizer
+
+# ---------- 分布式训练 (可选) ----------
+# accelerate>=0.25.0
+# deepspeed>=0.12.0
+
+# ---------- 可视化与日志 (可选) ----------
+# tensorboard>=2.15.0
+# wandb>=0.16.0
+
+# ---------- 推理加速 (可选) ----------
+# onnxruntime>=1.16.0   # 转换为ONNX后CPU/GPU推理加速
+# onnx>=1.15.0
